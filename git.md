@@ -290,17 +290,17 @@ t add" to track)
 ## 同步远程仓库
 
 - 利用push和pull
-- git clone repo-address：克隆仓库
-- git push <remote><branch>推送更新内容
-- git pull<remote>拉取更新内容
+- `git clone repo-address`：克隆仓库
+- `git push <remote><branch>`推送更新内容
+- `git pull<remote>`拉取更新内容
 
 
 
-- git remote add <shortname> <url>添加一个远程仓库
-- git remote -v：查看当前仓库和远程仓库的别名和地址
-- git branch -M main:指定分支的名称为main
-- git push -u origin main:main把本地仓库和别名为origin的仓库关联起来，把本地仓库的main分支和远程仓库的main分支关联起来
-- git pull origin main:main，可以省略为git pull，拉取远程仓库的内容
+- `git remote add <shortname> <url>`添加一个远程仓库
+- `git remote -v`：查看当前仓库和远程仓库的别名和地址
+- `git branch -M main`:指定分支的名称为main
+- `git push -u origin main`:main把本地仓库和别名为origin的仓库关联起来，把本地仓库的main分支和远程仓库的main分支关联起来
+- `git pull origin main`:main，可以省略为git pull，拉取远程仓库的内容
 
 gitee和gitlab也是代码托管平台
 
